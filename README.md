@@ -1,11 +1,28 @@
-# AI Coding Assistant
+# AI Coding Assistant (In Progress)
 
-A Python-based coding assistant using an LLM client with async streaming responses.
+A Python-based AI coding assistant that uses an LLM client to generate and stream responses in real time.
 
-## Features
-- Chat-based interaction
-- Async event streaming
-- LLM integration
+## What it does
+- Accepts user prompts
+- Sends them to an LLM client
+- Streams responses asynchronously
+- Displays output in real time
 
-## Status
-Early-stage development
+## Tech Used
+- Python
+- Asyncio (asynchronous programming)
+- LLM integration (chat-based interface)
+
+## Why I Built This
+I wanted to understand how modern AI tools like Claude or ChatGPT work under the hood, especially how they handle real-time responses and user interaction.
+
+## Current Status
+Early-stage development. Currently working on improving:
+- response handling
+- usability
+- adding more structured coding assistance features
+
+## Future Improvements
+- CLI interface
+- better prompt handling
+- code-specific responses
